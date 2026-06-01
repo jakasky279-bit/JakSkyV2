@@ -764,11 +764,7 @@ app.post("/api/react-unlike/:id",(req,res)=>{
    START SERVER
 ========================= */
 
-const server = app.listen(PORT, "0.0.0.0", () => {
-  console.log("🔥 Web aktif di port", PORT);
-});
 
-server.timeout = 0;
 
 app.post("/api/admin/comment/:postId/:i", (req, res) => {
   console.log("KENA DELETE", req.params.postId, req.params.i);
