@@ -787,6 +787,3 @@ writePosts(posts);
 
 res.json({ ok: true, post });
 });
-
-module.exports = app;
-
